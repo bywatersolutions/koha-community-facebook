@@ -1,0 +1,24 @@
+{
+  "name": "koha-community-facebook",
+  "version": "1.0.0",
+  "description": "Images of Koha Community members for use on the wiki.",
+  "main": "index.js",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "node-thumbnail": "^0.7.0"
+  },
+  "scripts": {
+    "start": "./node_modules/node-thumbnail/bin/thumb originals/ thumbnails/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bywatersolutions/koha-community-facebook.git"
+  },
+  "author": "Kyle M Hall",
+  "license": "CC-BY-SA-4.0",
+  "bugs": {
+    "url": "https://github.com/bywatersolutions/koha-community-facebook/issues"
+  },
+  "homepage": "https://github.com/bywatersolutions/koha-community-facebook#readme"
+}
